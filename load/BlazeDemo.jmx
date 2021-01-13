@@ -48,11 +48,11 @@
       <hashTree/>
       <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="jp@gc - Ultimate Thread Group" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
-          <collectionProp name="154587408">
-            <stringProp name="100">100</stringProp>
+          <collectionProp name="1279921864">
+            <stringProp name="48625">100</stringProp>
             <stringProp name="0">0</stringProp>
             <stringProp name="1572">15</stringProp>
-            <stringProp name="60">60</stringProp>
+            <stringProp name="1722">60</stringProp>
             <stringProp name="1572">15</stringProp>
           </collectionProp>
         </collectionProp>
@@ -413,6 +413,17 @@
                   </elementProp>
                 </collectionProp>
               </HeaderManager>
+              <hashTree/>
+              <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+                <collectionProp name="Asserion.test_strings">
+                  <stringProp name="-1270109056">Thank you for your purchase today!</stringProp>
+                </collectionProp>
+                <stringProp name="Assertion.custom_message"></stringProp>
+                <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+                <boolProp name="Assertion.assume_success">false</boolProp>
+                <intProp name="Assertion.test_type">16</intProp>
+                <stringProp name="Assertion.scope">all</stringProp>
+              </ResponseAssertion>
               <hashTree/>
             </hashTree>
           </hashTree>
